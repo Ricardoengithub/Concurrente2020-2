@@ -3,3 +3,6 @@
 
 ### Práctica 02
 - Problema de los filósofos.
+
+### Práctica 03
+- Problema de los escritores y lectores.
