@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: unam.ciencias.computoconcurrente.GraphTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in unam.ciencias.computoconcurrente.GraphTest
+diametro3Paralelo  Time elapsed: 0 s
+diametro  Time elapsed: 0 s
+diametroParalelo  Time elapsed: 0 s
+diametro2Paralelo  Time elapsed: 0 s
+diametro2  Time elapsed: 0 s
+diametro3  Time elapsed: 0.001 s
+diametro4  Time elapsed: 0 s
+diametro4Paralelo  Time elapsed: 0 s

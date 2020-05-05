@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: unam.ciencias.computoconcurrente.MultMatrixTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in unam.ciencias.computoconcurrente.MultMatrixTest
+multiplicaConcurrent  Time elapsed: 0.017 s
+multiplica2Concurrent  Time elapsed: 0.001 s
+multiplica2  Time elapsed: 0.001 s
+multiplica  Time elapsed: 0.001 s
