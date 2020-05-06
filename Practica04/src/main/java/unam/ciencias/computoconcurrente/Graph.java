@@ -3,11 +3,9 @@ package unam.ciencias.computoconcurrente;
 import java.util.Arrays;
 
 public class Graph implements Runnable{
+
     private int id;
     private int threads;
-    private static int[] posiblesMinimos; // Arreglo para que cada hilo guarde su minimo encontrado
-    private static int[] matrixGlobal; 
-    private static int secciones; 
 
 
     public Graph(int id, int threads){
@@ -39,8 +37,7 @@ public class Graph implements Runnable{
         return c;
     }
 
-  int minDistance(int dist[], Boolean sptSet[]) 
-    { 
+    int minDistance(int dist[], Boolean sptSet[]){ 
         // Initialize min value 
         int min = Integer.MAX_VALUE, min_index = -1; 
         int V = dist.length;
@@ -53,8 +50,7 @@ public class Graph implements Runnable{
         return min_index; 
     } 
 
-    void printSolution(int dist[], int n) 
-    { 
+    void printSolution(int dist[], int n){ 
         System.out.println("Vertex   Distance from Source"); 
         for (int i = 0; i < dist.length; i++) 
             System.out.println(i + " tt " + dist[i]); 
@@ -110,8 +106,7 @@ public class Graph implements Runnable{
                    dist[u] != Integer.MAX_VALUE && dist[u] + graph[u][v] < dist[v]) 
                     dist[v] = dist[u] + graph[u][v]; 
         } 
-
-
+        
         //printSolution(dist, graph.length); 
         return maximum(dist);
   

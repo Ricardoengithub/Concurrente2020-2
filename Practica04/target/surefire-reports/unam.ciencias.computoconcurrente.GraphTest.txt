@@ -7,6 +7,6 @@ diametro  Time elapsed: 0 s
 diametroParalelo  Time elapsed: 0 s
 diametro2Paralelo  Time elapsed: 0 s
 diametro2  Time elapsed: 0 s
-diametro3  Time elapsed: 0.001 s
+diametro3  Time elapsed: 0 s
 diametro4  Time elapsed: 0 s
 diametro4Paralelo  Time elapsed: 0 s

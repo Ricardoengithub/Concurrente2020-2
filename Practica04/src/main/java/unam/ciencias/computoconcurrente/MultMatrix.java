@@ -1,12 +1,10 @@
 package unam.ciencias.computoconcurrente;
 
 public class MultMatrix implements Runnable{
+
     private int id;
     private int threads;
-    private static int[] posiblesMinimos; // Arreglo para que cada hilo guarde su minimo encontrado
-    private static int[] matrixGlobal; 
-    private static int secciones; 
-
+    
 
     public MultMatrix(int id, int threads){
         this.id = id;
@@ -20,21 +18,6 @@ public class MultMatrix implements Runnable{
     public MultMatrix(int threads) {
         this.threads = threads;
     }
-
-
-    // public double findAverage(int[][] matrix) throws InterruptedException{
-    //     int suma_parcial = 0;
-    //     int contador = 0;
-    //     for (int i = id; i < matrix.length; i++) {
-    //         for (int j = 0; j < matrix.length; j++) {
-    //             suma_parcial+=matrix[i][j];
-    //             contador++;
-    //             System.out.print(contador);
-    //         }
-    //     }
-    //     System.out.print(contador);
-    //     return (float) suma_parcial/contador;       
-    // }
 
     public int[][] multiplica(int[][] matrix1, int[][] matrix2){
         int[][] c = new int[matrix1.length][matrix2[0].length];

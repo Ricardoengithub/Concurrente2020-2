@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-10-openjdk/lib"/>
-    <property name="sun.java.command" value="/home/arch/Practica04/target/surefire/surefirebooter15694983880383855835.jar /home/arch/Practica04/target/surefire 2020-05-04T18-40-45_598-jvmRun1 surefire9105515833387449698tmp surefire_013587383109954139780tmp"/>
+    <property name="sun.java.command" value="/home/arch/Practica04/target/surefire/surefirebooter13359605930058010801.jar /home/arch/Practica04/target/surefire 2020-05-05T19-32-39_503-jvmRun1 surefire8774931852621874614tmp surefire_011554238379165851076tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/arch/Practica04/target/test-classes:/home/arch/Practica04/target/classes:/home/arch/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/home/arch/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/arch/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/arch/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/arch/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/home/arch/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/home/arch/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/home/arch/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,12 +32,12 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/arch/Practica04/target/surefire/surefirebooter15694983880383855835.jar"/>
+    <property name="surefire.real.class.path" value="/home/arch/Practica04/target/surefire/surefirebooter13359605930058010801.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="10.0.2+13"/>
     <property name="user.name" value="arch"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.4.35-1-MANJARO"/>
+    <property name="os.version" value="5.4.36-1-MANJARO"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -62,7 +62,7 @@
   <testcase name="diametroParalelo" classname="unam.ciencias.computoconcurrente.GraphTest" time="0"/>
   <testcase name="diametro2Paralelo" classname="unam.ciencias.computoconcurrente.GraphTest" time="0"/>
   <testcase name="diametro2" classname="unam.ciencias.computoconcurrente.GraphTest" time="0"/>
-  <testcase name="diametro3" classname="unam.ciencias.computoconcurrente.GraphTest" time="0.001"/>
+  <testcase name="diametro3" classname="unam.ciencias.computoconcurrente.GraphTest" time="0"/>
   <testcase name="diametro4" classname="unam.ciencias.computoconcurrente.GraphTest" time="0"/>
   <testcase name="diametro4Paralelo" classname="unam.ciencias.computoconcurrente.GraphTest" time="0"/>
 </testsuite>
