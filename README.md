@@ -6,3 +6,6 @@
 
 ### Práctica 03
 - Problema de los escritores y lectores.
+
+### Práctica 04
+- Computo paralelo
