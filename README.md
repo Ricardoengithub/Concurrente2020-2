@@ -8,4 +8,4 @@
 - Problema de los escritores y lectores.
 
 ### Práctica 04
-- Computo paralelo
+- Computo paralelo: multiplicacion de matrices y diametro de una grafica
